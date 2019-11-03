@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+.ba-header {
+  display: flex;
+  justify-content: center;
+  min-height: 1072px;
+  background-color: #aeb8cd;
+  color: #fff;
+  background-image: url(../img/hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ba-header-wrapper {
+  /* width: 596px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ba-about {
+  background-color: #fff;
+  min-height: 630px;
+}
+.ba-about__title {
+}
+.ba-about__text {
+}
+.ba-services {
+  min-height: 488px;
+  background-color: #aeb8cd;
+  background-image: url(../img/services.jpg);
+}
+
+/*  */
+/*  */
+.visually-hidden {
+  position: absolute;
+  left: -9999999px;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
