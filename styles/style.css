@@ -47,6 +47,9 @@ h6 {
   margin-top: 285px;
   margin-bottom: 80px;
 }
+.ba-header__logo:hover{
+  opacity: 0.5;
+}
 .ba-header__title {
   font-size: 54px;
   letter-spacing: 0.14em; /*16/1000*/
@@ -147,7 +150,9 @@ h6 {
   margin: 17px 0;
   letter-spacing: 2px;
 }
-
+.ba-box__btn:hover {
+  opacity: 0.5;
+}
 .ba-section {
   padding: 130px 0 110px;
 }
@@ -218,6 +223,10 @@ h6 {
   font-size: 34px;
   font-weight: 700;
   text-transform: uppercase;
+}
+.ba-section--grid img:hover {
+  /* transform: scale(1.1); */
+  opacity: 0.5;
 }
 /* grid */
 
